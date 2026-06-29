@@ -1,0 +1,108 @@
+/* ====================================
+   DETAIL LAYANAN
+   SHELA BEAUTY STUDIO
+==================================== */
+
+body{
+    margin:0;
+    font-family:'Segoe UI', Arial, sans-serif;
+    background:#fff8fa;
+    color:#6e5b61;
+}
+
+.detail-layanan{
+    padding:60px 20px;
+}
+
+.detail-container{
+    max-width:1000px;
+    margin:0 auto;
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.gambar-layanan{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.detail-layanan h1{
+    text-align:center;
+    color:#b76e79;
+    margin-top:25px;
+    margin-bottom:20px;
+}
+
+.detail-layanan h2{
+    color:#b76e79;
+    margin-top:30px;
+}
+
+.deskripsi{
+    line-height:1.8;
+    text-align:justify;
+}
+
+.detail-layanan ul{
+    line-height:2;
+    padding-left:20px;
+}
+
+.harga-box{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:20px;
+}
+
+.paket{
+    flex:1;
+    min-width:250px;
+    background:#fdecef;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.paket:hover{
+    transform:translateY(-5px);
+}
+
+.paket h3{
+    color:#b76e79;
+    margin-bottom:10px;
+}
+
+.paket span{
+    display:block;
+    margin-top:15px;
+    font-size:24px;
+    font-weight:bold;
+    color:#b76e79;
+}
+
+.btn-booking{
+    display:block;
+    width:250px;
+    margin:40px auto 0;
+    text-align:center;
+    text-decoration:none;
+    background:#d8a7b1;
+    color:white;
+    padding:15px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-booking:hover{
+    background:#b76e79;
+    color:white;
+    text-decoration:none;
+}
